@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SocialBook-Page </title>
+    <link rel="stylesheet" href="page.css">
+    <script src="https://kit.fontawesome.com/3a6cb7e42b.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+            <img src="soc.png" alt="" class="logo">
+            <ul>
+                <li><img src="notification-bell.png" alt=""></li>
+                <li><img src="email.png" alt=""></li>
+                <li><img src="video.png" alt=""></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="sb">
+                <img src="search.png" alt="">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="icon oline" onclick="settingsMenuToggle()">
+                <img src="status.jpeg" alt="">
+            </div>
+        </div>
+        <!------ Setting Menu ------>
+        <div class="setting-menu">
+            <div id="dark-btn">
+                <span></span>
+            </div>
+            <div class="menu-iner">
+                <div class="user-profile">
+                    <img src="status.jpeg" alt="">
+                    <div>
+                        <p>Paul Ryle</p>
+                        <a href="#">See Your Profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="feedback.jpg" alt="">
+                    <div>
+                        <p>Give us Feedback</p>
+                        <a href="#">Help us to improve the design</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="setting-link">
+                    <img src="setting.png" class="setiing-icon">
+                    <a href="#">Setting & Privacy <img src="arrow.png" width="10px"></a>
+                </div>
+                <div class="setting-link">
+                    <img src="help.png" class="setiing-icon">
+                    <a href="#">Help& Support <img src="arrow.png" width="10px"></a>
+                </div>
+                <div class="setting-link">
+                    <img src="moon.jpg" class="setiing-icon">
+                    <a href="#">Display & Accessibility <img src="arrow.png" width="10px"></a>
+                </div>
+                <div class="setting-link">
+                    <img src="logout.png" class="setiing-icon">
+                    <a href="#">Logout <img src="arrow.png" width="10px"></a>
+                </div>
+
+
+
+            </div>
+            
+        </div>
+    </nav>
+    <div class="container">
+        <!--- for the left sidebar -->
+        <div class="left-sidebar">
+            <div class="imp-link">
+                <a href="#"><img src="new.png" alt=""> Latest News</a>
+                <a href="#"><img src="friend.png" alt=""> Friend</a>
+                <a href="#"><img src="group.jpg" alt=""> Group</a>
+                <a href="#"><img src="marketplace.png" alt=""> Marketplace</a>
+                <a href="#"><img src="tv.png" alt=""> Tv-Watch </a>
+                <a href="#">See More</a>
+            </div>
+            <div class="shortcut-link">
+            <p>Your Shortcuts</p>
+            <a href="#"><img src="dev.png" alt=""> Web Developer</a>
+            <a href="#"><img src="des.jpg" alt=""> Web Desingn</a>
+            <a href="#"><img src="fullstack.jpg" alt=""> Full Stack</a>
+            <a href="#"><img src="exp.jpg" alt=""> Website Expert</a>
+            </div>
+        </div>
+        <!--- for the main content -->
+        <div class="main-content">
+            <div class="story-gallary">
+                <div class="story story1">
+                    <img src="plus.png" alt="">
+                <p>Post Story</p>
+                </div>
+                <div class="story story2">
+                    <img src="user1.jpg" alt="">
+                <p>John</p>
+                </div>
+                <div class="story story3">
+                    <img src="us2.jpeg" alt="">
+                <p>Jeffery</p>
+                </div>
+                <div class="story story4">
+                    <img src="user3.jpg" alt="">
+                <p>Olive</p>
+                </div>
+                <div class="story story5">
+                    <img src="nic.jpg" alt="">
+                <p>Alex</p>
+                </div>
+            </div>
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="status.jpeg" alt="">
+                    <div>
+                        <p>Paul Ryle</p>
+                        <small>Public <i class="fa-solid fa-caret-down"></i></small>
+                    </div>
+                </div>
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="What's on your mind, Paul"></textarea>
+                    <div class="add-post-link">
+                        <a href="#"><img src="video1.jpg" alt="">  Live Video</a>
+                        <a href="#"><img src="camera.png" alt=""> Photo/video</a>
+                        <a href="#"><img src="smile.png" alt=""> Felling/Activity</a>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="status.jpeg" alt="">
+                        <div>
+                            <p>Paul Ryle</p>
+                            <span>November 24 2023,16:40pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                
+                <p class="post-test">Subscribe <span>@Easy Tutorials</span> YouTube Channel to watch more videos on 
+                website development and UI desingn. <a href="#">#EasyTutorials</a> <a href="#">#YouTubeChannel</a></p>
+                <img  class="post-img" src="comp.jpg" alt="">
+                <div class="post-row">
+                    <div class="activity-icon">
+                        <div><img src="like.png" alt=""> 120</div>
+                        <div><img src="comment.jpg" alt=""> 55</div>
+                        <div><img src="share.png" alt=""> 30</div>
+                    </div>
+                    <div class="post-profile-icon">
+                         <img src="status.jpeg" alt=""> <small><i class="fa-solid fa-caret-down"></i></small>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="status.jpeg" alt="">
+                        <div>
+                            <p>Paul Ryle</p>
+                            <span>November 24 2023,16:40pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                
+                <p class="post-test">Like and Share this video with friends, tag 
+                    <span>@Easy Tutorials</span> faacebook page on your post. ask your doubts in the 
+                    comments session <a href="#">#EasyTutorials</a> <a href="#">#YouTubeChannel</a></p>
+                <img  class="post-img" src="beach.jpg" alt="">
+                <div class="post-row">
+                    <div class="activity-icon">
+                        <div><img src="like.png" alt=""> 120</div>
+                        <div><img src="comment.jpg" alt=""> 55</div>
+                        <div><img src="share.png" alt=""> 30</div>
+                    </div>
+                    <div class="post-profile-icon">
+                         <img src="status.jpeg" alt=""> <small><i class="fa-solid fa-caret-down"></i></small>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="status.jpeg" alt="">
+                        <div>
+                            <p>Paul Ryle</p>
+                            <span>November 24 2023,16:40pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                
+                <p class="post-test">Like and Share this video with friends, tag 
+                    <span>@Easy Tutorials</span> faacebook page on your post. ask your doubts in the 
+                    comments session <a href="#">#EasyTutorials</a> <a href="#">#YouTubeChannel</a></p>
+                <img  class="post-img" src="im3.jpg" alt="">
+                <div class="post-row">
+                    <div class="activity-icon">
+                        <div><img src="like.png" alt=""> 120</div>
+                        <div><img src="comment.jpg" alt=""> 55</div>
+                        <div><img src="share.png" alt=""> 30</div>
+                    </div>
+                    <div class="post-profile-icon">
+                         <img src="status.jpeg" alt=""> <small><i class="fa-solid fa-caret-down"></i></small>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="status.jpeg" alt="">
+                        <div>
+                            <p>Paul Ryle</p>
+                            <span>November 24 2023,16:40pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                
+                <p class="post-test">Like and Share this video with friends, tag 
+                    <span>@Easy Tutorials</span> faacebook page on your post. ask your doubts in the 
+                    comments session <a href="#">#EasyTutorials</a> <a href="#">#YouTubeChannel</a></p>
+                <img  class="post-img" src="im4.jpg" alt="">
+                <div class="post-row">
+                    <div class="activity-icon">
+                        <div><img src="like.png" alt=""> 120</div>
+                        <div><img src="comment.jpg" alt=""> 55</div>
+                        <div><img src="share.png" alt=""> 30</div>
+                    </div>
+                    <div class="post-profile-icon">
+                         <img src="status.jpeg" alt=""> 
+                         <small><i class="fa-solid fa-caret-down"></i></small>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="status.jpeg" alt="">
+                        <div>
+                            <p>Paul Ryle</p>
+                            <span>November 24 2023,16:40pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                
+                <p class="post-test">Like and Share this video with friends, tag 
+                    <span>@Easy Tutorials</span> faacebook page on your post. ask your doubts in the 
+                    comments session <a href="#">#EasyTutorials</a> <a href="#">#YouTubeChannel</a></p>
+                <img  class="post-img" src="im5.jpg" alt="">
+                <div class="post-row">
+                    <div class="activity-icon">
+                        <div><img src="like.png" alt=""> 120</div>
+                        <div><img src="comment.jpg" alt=""> 55</div>
+                        <div><img src="share.png" alt=""> 30</div>
+                    </div>
+                    <div class="post-profile-icon">
+                         <img src="status.jpeg" alt=""> <small><i class="fa-solid fa-caret-down"></i></small>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="load">Load More</button>
+        </div>
+        <!---for the right sidebar -->
+        <div class="right-sidebar">
+
+            <div class="sidebar-title">
+                <h4>Events</h4>
+                <a href="#">See All</a>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>23</h3>
+                    <span>April</span>
+                </div>
+                <div class="right-event">
+                    <h4>Social Media</h4>
+                    <p><i class="fa-solid fa-location-dot"></i> Sir Fr Tech-space</p>
+                    <a href="#">More Info</a>
+                </div>    
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>10</h3>
+                    <span>July</span>
+                </div>
+                <div class="right-event">
+                    <h4>Mobile Marketing</h4>
+                    <p><i class="fa-solid fa-location-dot"></i> Fr Tech-space</p>
+                    <a href="#">More Info</a>
+                </div>    
+            </div>
+            <div class="sidebar-title">
+                <h4>Advertisement</h4>
+                <a href="#">Close</a>
+            </div>
+            <img src="advert.jpg" alt="" class="ad">
+            <div class="sidebar-title">
+                <h4>Conversation</h4>
+                <a href="#">Hide chat</a>
+            </div>
+
+            <div class="oline-list">
+                <div class="oline">
+                    <img src="user1.jpg" alt="">
+                </div>
+                <p>Kate Mina</p>
+            </div>
+            <div class="oline-list">
+                <div class="oline">
+                    <img src="us2.jpeg" alt="">
+                </div>
+                <p>Jeffery Aston</p>
+            </div>
+            <div class="oline-list">
+                <div class="oline">
+                    <img src="user3.jpg" alt="">
+                </div>
+                <p>Olive Jude</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Copyright 2023 - Easy Tutorials YouTube Channel</p>
+    </div>
+<script src="page.js"></script>
+</body>
+</html>   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
